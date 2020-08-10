@@ -13,7 +13,23 @@
   letter-spacing: -0.05rem;
   margin: 1rem 0;
 }
+.back_button{
+  position: fixed;
+  float: left;
+  top:0;
+  color:white;
+}
 
+.back_button_background{
+  line-height: 20px;
+  padding-right: 3px;
+  
+  margin: 0;
+  background-color: #ffffffd1;
+  color: black;
+  font-style: normal;
+  font-family: PixelOperator;
+}
 .headingLg {
   font-size: 1.5rem;
   line-height: 1.4;
@@ -49,5 +65,5 @@
 }
 
 .lightText {
-  color: #666;
+  color: #ffffff;
 }

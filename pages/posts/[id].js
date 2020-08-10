@@ -1,9 +1,16 @@
 import { getAllPostIds, getPostData } from '../../helpers/posts'
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
+import Link from 'next/link'
 
 export default function Post({ postData }) {
   return (
+    <div>
+      <div className={utilStyles.back_button}>
+      <Link href="/">
+      <a className="noDecoration"><p className={utilStyles.back_button_background}>back</p></a>
+          </Link>
+      </div>
     <div className="container">
       <Head>
         <title>{postData.title}</title>
@@ -15,6 +22,7 @@ export default function Post({ postData }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
+    </div>
     </div>
   )
 }
