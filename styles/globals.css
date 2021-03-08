@@ -44,7 +44,7 @@ pre{
 
 a {
   color: #ffffff;
-  text-decoration: none;
+  white-space: break-spaces;
 }
 
 a:hover {
