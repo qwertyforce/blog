@@ -33,6 +33,11 @@ body{
   margin: 3rem auto 6rem;
 }
 
+pre{
+  background-color: #00000057;
+   white-space: normal;
+}
+
 * {
   box-sizing: border-box;
 }
